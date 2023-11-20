@@ -7,7 +7,7 @@ public class Shell : MonoBehaviour {
     public GameObject explosion;
     float speed = 0.0f;
     float ySpeed = 0.0f;
-    float mass = 30.0f;
+    float mass = 10.0f;
     float force = 4.0f;
     float drag = 1.0f;
     float gravity = -9.8f;
