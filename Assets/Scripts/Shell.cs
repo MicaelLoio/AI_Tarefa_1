@@ -8,7 +8,7 @@ public class Shell : MonoBehaviour {
     float speed = 0.0f;
     float ySpeed = 0.0f;
     float mass = 10.0f;
-    float force = 4.0f;
+    float force = 2.0f;
     float drag = 1.0f;
     float gravity = -9.8f;
     float gAccel;
