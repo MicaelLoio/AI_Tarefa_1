@@ -7,7 +7,7 @@ public class AiShell : MonoBehaviour
 
 
      public GameObject explosion;
- 
+        Rigibody rb;
 
 
     void OnCollisionEnter(Collision col) {
@@ -21,12 +21,12 @@ public class AiShell : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = this.GetComponent<Rigibody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        this.transform..forwardd = rb.velocity;
     }
 }
